@@ -1,6 +1,6 @@
 import "./App.css";
 // import { SciChartReact } from "scichart-react";
-import CandlestickChart from "./charts";
+import CandlestickChart from "./charts/index.jsx";
 
 function App() {
   return (
