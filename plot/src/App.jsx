@@ -1,17 +1,13 @@
 import "./App.css";
-// import { SciChartReact } from "scichart-react";
-import CandlestickChart from "./charts";
+import Timer from "./components/Timer";
 
 function App() {
   return (
-    <>
-      <div className="App">
-      <div>
-            <h1>Stock Prices</h1>
-            <CandlestickChart />
-        </div>
+    <div className="App">
+      <div className="timer-app">
+        <Timer />
       </div>
-    </>
+    </div>
   );
 }
 
